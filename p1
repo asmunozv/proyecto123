@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mission Get Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Mission Get Home</h1>
+            <p>Explora el mapa, juega y colabora en las misiones de las Tortugas Ninja.</p>
+        </header>
+
+        <section id="map">
+            <h2>Mapa de Alcantarillas</h2>
+            <img src="sewer-map-placeholder.png" alt="Mapa de Alcantarillas" />
+        </section>
+
+        <section id="teachable-project">
+            <h2>Proyecto Interactivo</h2>
+            <p>Aquí puedes integrar tu proyecto de Teachable Machine.</p>
+            <div id="teachable-placeholder">[Espacio para el proyecto]</div>
+        </section>
+
+        <section id="game">
+            <h2>Juego: ¡Ayuda a las Tortugas!</h2>
+            <button id="start-game">Iniciar Juego</button>
+            <canvas id="game-canvas"></canvas>
+        </section>
+
+        <section id="mission-panel">
+            <h2>Panel de Comunicación</h2>
+            <textarea placeholder="Escribe instrucciones para la misión..."></textarea>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
