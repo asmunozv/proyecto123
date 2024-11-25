@@ -1,0 +1,3 @@
+document.getElementById("start-game").addEventListener("click", function () {
+    alert("¡El juego comenzará pronto! Aquí puedes programar tu juego.");
+});
